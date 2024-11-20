@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: reel
+    env: static
+    buildCommand: npm install --force && npm run build
+    staticPublishPath: build
